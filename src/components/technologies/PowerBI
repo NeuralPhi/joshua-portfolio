@@ -1,0 +1,11 @@
+export default function PowerBI() {
+  return (
+    <svg viewBox="0 0 128 128">
+      <rect width="128" height="128" fill="#F2C811" rx="8" ry="8" />
+      <path
+        fill="#000"
+        d="M40 88h16V56H40v32zm24 0h16V32H64v56zm24 0h16V72H88v16z"
+      />
+    </svg>
+  );
+}
