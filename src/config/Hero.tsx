@@ -27,14 +27,14 @@ import Github from '@/components/svgs/Github';
 import LinkedIn from '@/components/svgs/LinkedIn';
 import Mail from '@/components/svgs/Mail';
 import X from '@/components/svgs/X';
-import Bun from '@/components/technologies/Bun';
+import Medium from '@/components/technologies/Medium';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
 import NodeJs from '@/components/technologies/NodeJs';
-import PostgreSQL from '@/components/technologies/PostgreSQL';
+import MSSQL from '@/components/technologies/MSSQL';
 import Prisma from '@/components/technologies/Prisma';
-import ReactIcon from '@/components/technologies/ReactIcon';
+import PowerBI from '@/components/technologies/PowerBI';
 import Excel from '@/components/technologies/Excel';
 import Figma from '@/components/technologies/Figma';
 // Technology Components
@@ -43,10 +43,9 @@ import TypeScript from '@/components/technologies/TypeScript';
 // Component mapping for skills
 export const skillComponents = {
   TypeScript: TypeScript,
-  ReactIcon: ReactIcon,
+  PowerBI: PowerBI,
   NextJs: NextJs,
-  Bun: Bun,
-  PostgreSQL: PostgreSQL,
+  MSSQL: MSSQL,
   NodeJs: NodeJs,
   MongoDB: MongoDB,
   Prisma: Prisma,
@@ -64,36 +63,31 @@ export const heroConfig = {
   // Skills Configuration
   skills: [
     {
-      name: 'Typescript',
-      href: 'https://www.typescriptlang.org/',
-      component: 'TypeScript',
-    },
-    {
       name: 'Excel',
       href: 'https://www.microsoft.com/en-us/microsoft-365/excel',
       component: 'Excel',
+    },
+    {
+      name: 'MSSQL',
+      href: 'https://learn.microsoft.com/en-us/sql/',
+      component: 'MSSQL',
+    },
+    {
+      name: 'PowerBI',
+      href: 'https://powerbi.microsoft.com/',
+      component: 'PowerBI',
     },
     {
       name: 'Figma',
       href: 'https://www.figma.com/',
       component: 'Figma',
     },
-    {
-      name: 'React',
-      href: 'https://react.dev/',
-      component: 'ReactIcon',
-    },
-    {
-      name: 'Next.js',
-      href: 'https://nextjs.org/',
-      component: 'NextJs',
-    },
   ],
 
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, and {skills:3}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
   },
 
   // Buttons Configuration
@@ -117,22 +111,27 @@ export const heroConfig = {
 export const socialLinks = [
   {
     name: 'X',
-    href: 'https://x.com/ramxcodes',
+    href: 'https://x.com/JDataCraft',
     icon: <X />,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/ramxcodes/',
+    href: 'https://www.linkedin.com/in/joshua-opadoja-5682592b5/',
     icon: <LinkedIn />,
   },
   {
     name: 'Github',
-    href: 'https://github.com/ramxcodes',
+    href: 'https://github.com/NeuralPhi',
     icon: <Github />,
   },
   {
+    name: 'Medium',
+    href: 'https://medium.com/@opadojajoshua',
+    icon: <Medium />,
+  },
+  {
     name: 'Email',
-    href: 'mailto:ramxcodes@gmail.com',
+    href: 'mailto:opadojajoshua@gmail.com',
     icon: <Mail />,
   },
 ];
