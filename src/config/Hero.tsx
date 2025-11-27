@@ -87,16 +87,6 @@ export const heroConfig = {
       href: 'https://nextjs.org/',
       component: 'NextJs',
     },
-    {
-      name: 'Bun',
-      href: 'https://bun.sh/',
-      component: 'Bun',
-    },
-    {
-      name: 'PostgreSQL',
-      href: 'https://www.postgresql.org/',
-      component: 'PostgreSQL',
-    },
   ],
 
   // Description Configuration
