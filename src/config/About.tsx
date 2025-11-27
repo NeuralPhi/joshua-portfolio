@@ -21,6 +21,12 @@ export const mySkills = [
 ];
 
 export const about = {
-  name: 'Ramkrishna Swarnkar',
-  description: `I'm a Full Stack web developer and Open Source Contributor, I love building products to solve real-world problems. I'm specialized in building MVP's.`,
+  name: 'Joshua Opadoja',
+  description: `I'm Joshua, a data analyst and aspiring backend engineer passionate about solving real-world problems with technology. 
+  I work with data to understand patterns, make decisions, and build tools that help businesses. Recently, I've been exploring CS fundamentals, 
+  backend engineering, and advanced analytics. 
+  
+  All to provide indispensable value as a person to businesses and individuals. I am always curious and learning things, improving daily, and 
+  building systems that actually work. Dive into my portfolio to explore solutions I have crafted from previous projects, my mind and thought process. 
+  Outside tech, I enjoy playing the guitar, studying physics and math, and exploring concepts beyond the norms.`,
 };
