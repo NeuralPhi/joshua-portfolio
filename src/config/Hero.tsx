@@ -51,7 +51,8 @@ export const skillComponents = {
   MongoDB: MongoDB,
   Prisma: Prisma,
   JavaScript: JavaScript,
-  Excel,
+  Excel: Excel,
+  Figma: Figma,
 };
 
 export const heroConfig = {
