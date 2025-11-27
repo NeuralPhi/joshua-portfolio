@@ -36,6 +36,7 @@ import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
 import Excel from '@/components/technologies/Excel';
+import Figma from '@/components/technologies/Figma';
 // Technology Components
 import TypeScript from '@/components/technologies/TypeScript';
 
@@ -70,6 +71,11 @@ export const heroConfig = {
       name: 'Excel',
       href: 'https://www.microsoft.com/en-us/microsoft-365/excel',
       component: 'Excel',
+    },
+    {
+      name: 'Figma',
+      href: 'https://www.figma.com/',
+      component: 'Figma',
     },
     {
       name: 'React',
