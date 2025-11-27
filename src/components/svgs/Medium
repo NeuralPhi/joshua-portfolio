@@ -1,7 +1,13 @@
+import React from 'react';
+
 export default function Medium() {
   return (
-    <svg viewBox="0 0 128 128" fill="currentColor">
-      <path d="M0 32v64h128V32H0zm93 20c0-1-1-2-2-2h-6l-15 34h5l3-8 10 0v-24zM36 34v60h12l18-30v-30H36zM116 34v60h12V34H116z"/>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 256 256"
+    >
+      <path d="M0 32v192h256V32H0zm172 40c0-2-2-4-4-4h-12l-30 68 30 68h12c2 0 4-2 4-4V72zm-96 0v112h12l30-56-30-56H76zm176 0v112h12V72H252z" />
     </svg>
   );
 }
