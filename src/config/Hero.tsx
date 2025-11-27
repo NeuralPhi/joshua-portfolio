@@ -30,11 +30,13 @@ import X from '@/components/svgs/X';
 import Excel from '@/components/technologies/Excel';
 import Figma from '@/components/technologies/Figma';
 import PowerBI from '@/components/technologies/PowerBI';
+import MSSQL from '@/components/technologies/PowerBI';
 // Component mapping for skills
 export const skillComponents = {
   Excel: Excel,
   Figma: Figma,
   PowerBI: PowerBI,
+  MSSQL: MSSQL,
 };
 
 export const heroConfig = {
@@ -60,12 +62,17 @@ export const heroConfig = {
       href: 'https://powerbi.microsoft.com',
       component: 'PowerBI',
     },
+    {
+      name: 'MSSQL',
+      href: 'https://learn.microsoft.com/en-us/sql/',
+      component: 'MSSQL',
+    },
   ],
 
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, and {skills:2}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, and {skills:3}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
   },
 
   // Buttons Configuration
