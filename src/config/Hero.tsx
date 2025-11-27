@@ -29,8 +29,6 @@ import Mail from '@/components/svgs/Mail';
 import X from '@/components/svgs/X';
 import Excel from '@/components/technologies/Excel';
 import Figma from '@/components/technologies/Figma';
-// Technology Components
-import TypeScript from '@/components/technologies/TypeScript';
 
 // Component mapping for skills
 export const skillComponents = {
@@ -49,12 +47,12 @@ export const heroConfig = {
     {
       name: 'Excel',
       href: 'https://www.microsoft.com/en-us/microsoft-365/excel',
-      component: 'TypeScript',
+      component: 'Excel',
     },
     {
       name: 'Figma',
       href: 'https://www.figma.com/',
-      component: 'ReactIcon',
+      component: 'Figma',
     },
   ],
 
