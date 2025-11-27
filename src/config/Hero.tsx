@@ -35,6 +35,7 @@ import NodeJs from '@/components/technologies/NodeJs';
 import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
+import Excel from '@/components/technologies/Excel';
 // Technology Components
 import TypeScript from '@/components/technologies/TypeScript';
 
@@ -49,6 +50,7 @@ export const skillComponents = {
   MongoDB: MongoDB,
   Prisma: Prisma,
   JavaScript: JavaScript,
+  Excel,
 };
 
 export const heroConfig = {
@@ -63,6 +65,11 @@ export const heroConfig = {
       name: 'Typescript',
       href: 'https://www.typescriptlang.org/',
       component: 'TypeScript',
+    },
+    {
+      name: 'Excel',
+      href: 'https://www.microsoft.com/en-us/microsoft-365/excel',
+      component: 'Excel',
     },
     {
       name: 'React',
