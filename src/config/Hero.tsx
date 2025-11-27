@@ -27,7 +27,6 @@ import Github from '@/components/svgs/Github';
 import LinkedIn from '@/components/svgs/LinkedIn';
 import Mail from '@/components/svgs/Mail';
 import X from '@/components/svgs/X';
-import Medium from '@/components/svgs/Medium';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
@@ -123,11 +122,6 @@ export const socialLinks = [
     name: 'Github',
     href: 'https://github.com/NeuralPhi',
     icon: <Github />,
-  },
-  {
-    name: 'Medium',
-    href: 'https://medium.com/@opadojajoshua',
-    icon: <Medium />,
   },
   {
     name: 'Email',
