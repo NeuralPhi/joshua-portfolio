@@ -1,0 +1,11 @@
+export default function MSSQL() {
+  return (
+    <svg viewBox="0 0 128 128">
+      <rect width="128" height="128" fill="#CC2927" rx="8" ry="8" />
+      <path
+        fill="#fff"
+        d="M40 40h48v48H40z"
+      />
+    </svg>
+  );
+}
