@@ -29,11 +29,12 @@ import Mail from '@/components/svgs/Mail';
 import X from '@/components/svgs/X';
 import Excel from '@/components/technologies/Excel';
 import Figma from '@/components/technologies/Figma';
-
+import PowerBI from '@/components/technologies/PowerBI';
 // Component mapping for skills
 export const skillComponents = {
   Excel: Excel,
   Figma: Figma,
+  PowerBI: PowerBI,
 };
 
 export const heroConfig = {
@@ -53,6 +54,11 @@ export const heroConfig = {
       name: 'Figma',
       href: 'https://www.figma.com/',
       component: 'Figma',
+    },
+    {
+      name: 'PowerBI',
+      href: 'https://powerbi.microsoft.com',
+      component: 'PowerBI',
     },
   ],
 
