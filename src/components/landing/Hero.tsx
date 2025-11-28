@@ -116,7 +116,7 @@ export default function Hero() {
 
       {/* Scroll down arrow */}
       <a
-        href="#skills"
+        href="#about"
         className="absolute bottom-4 flex flex-col items-center text-neutral-500"
       >
         <span className="text-sm md:text-base">Scroll down</span>
