@@ -73,8 +73,7 @@ export const heroConfig = {
   // Description Configuration
   description: {
     template:
-      `I deliver end-to-end BI Solutions using {skills:0}, {skills:1}, {skills:2}, and {skills:3}, helping businesses unlock the full potential of their data. 
-      From data cleaning and modeling to creating interactive dashboards that tell the story, I bring a thoughtful and elegant approach to problem solving.`,
+      `I deliver end-to-end BI Solutions using {skills:0}, {skills:1}, {skills:2}, and {skills:3}, helping businesses unlock the full potential of their data. From data cleaning and modeling to creating interactive dashboards that tell the story, I bring a thoughtful and elegant approach to problem solving.`,
   },
 
   // Buttons Configuration
