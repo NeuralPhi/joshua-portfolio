@@ -50,7 +50,7 @@ export default function Hero() {
   };
 
   return (
-    <Container className="mx-auto max-w-5xl min-h-screen flex flex-col justify-center items-center relative">
+    <Container className="mx-auto max-w-5xl">
       {/* Image */}
       <Image
         src={avatar}
@@ -113,14 +113,6 @@ export default function Hero() {
           </Tooltip>
         ))}
       </div>
-
-    {/* Scroll down arrow */}
-    <a
-      href="#about"
-      className="absolute bottom-4 flex flex-col items-center text-neutral-500"
-    >
-      <span className="text-sm md:text-base">Scroll down</span>
-      <span className="animate-bounce text-2xl">&#8595;</span>
-    </a>
     </Container>
-  );    
+  );
+}
