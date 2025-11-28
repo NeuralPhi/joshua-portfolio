@@ -2,6 +2,11 @@
 @import 'tw-animate-css';
 @plugin "@tailwindcss/typography";
 
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'Hanken Grotesk';
   src: url('/fonts/HankenGrotesk-Variable.ttf') format('truetype');
