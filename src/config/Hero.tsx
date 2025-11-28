@@ -44,7 +44,7 @@ export const heroConfig = {
   // Personal Information
   name: 'Joshua',
   title: 'A Data Analyst and Aspiring Backend Engineer.',
-  avatar: '/assets/joshua.jpg',
+  // avatar: '/assets/joshua.jpg',
 
   // Skills Configuration
   skills: [
@@ -73,7 +73,8 @@ export const heroConfig = {
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, and {skills:3}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      `I deliver end-to-end BI Solutions using {skills:0}, {skills:1}, {skills:2}, and {skills:3}, helping businesses unlock the full potential of their data. 
+      From data cleaning and modeling to creating interactive dashboards that tell the story, I bring a thoughtful and elegant approach to problem solving.`,
   },
 
   // Buttons Configuration
