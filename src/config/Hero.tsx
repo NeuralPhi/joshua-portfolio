@@ -30,7 +30,7 @@ import X from '@/components/svgs/X';
 import Excel from '@/components/technologies/Excel';
 import Figma from '@/components/technologies/Figma';
 import PowerBI from '@/components/technologies/PowerBI';
-import MSSQL from '@/components/technologies/PowerBI';
+import MSSQL from '@/components/technologies/MSSQL';
 
 // Component mapping for skills
 export const skillComponents = {
