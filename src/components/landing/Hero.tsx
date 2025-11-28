@@ -114,13 +114,13 @@ export default function Hero() {
         ))}
       </div>
 
-      {/* Scroll down arrow */}
-      <a
-        href="#about"
-        className="absolute bottom-4 flex flex-col items-center text-neutral-500"
-      >
-        <span className="text-sm md:text-base">Scroll down</span>
-        <span className="animate-bounce text-2xl">&#8595;</span>
-      </a>
+    {/* Scroll down arrow */}
+    <a
+      href="#about"
+      className="absolute bottom-4 flex flex-col items-center text-neutral-500"
+    >
+      <span className="text-sm md:text-base">Scroll down</span>
+      <span className="animate-bounce text-2xl">&#8595;</span>
+    </a>
     </Container>
-  );
+  );    
