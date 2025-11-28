@@ -44,7 +44,7 @@ export const heroConfig = {
   // Personal Information
   name: 'Joshua',
   title: 'A Data Analyst and Aspiring Backend Engineer.',
-  // avatar: '/assets/joshua.jpg',
+  avatar: '/assets/joshua.jpg',
 
   // Skills Configuration
   skills: [
